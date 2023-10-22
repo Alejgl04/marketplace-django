@@ -3,9 +3,12 @@ from django.contrib import admin
 from django.urls import include, path
 from django.conf.urls.static import static
 
+from .views import HomeView
+
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('accounts/', include('allauth.urls')),
+  path('', HomeView.as_view(), name='Home'),
   # path('marketplace/', include('marketplace.urls', namespace='marketplace'))
 ]
 
