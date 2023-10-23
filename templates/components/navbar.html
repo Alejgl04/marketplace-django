@@ -1,6 +1,7 @@
-<nav class="navbar navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#">Home Market</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -14,21 +15,19 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Marketplace</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sells</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'account_login' %}">Sign in</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'account_signup' %}">Sign up</a>
-          </li>
+          {% if user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link" href="#">My products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sells</a>
+            </li>
+          {% endif %}
+
+          {% if user.is_authenticated %}
           <li class="nav-item dropdown">
-            <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              
+             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Alex
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -36,9 +35,17 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="{% url 'account_logout' %}">Sign out</a></li>
             </ul>
-          </li> -->
+          </li> 
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'account_login' %}">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'account_signup' %}">Sign up</a>
+            </li>
+          {% endif %}
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

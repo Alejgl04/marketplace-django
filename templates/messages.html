@@ -1,0 +1,12 @@
+{% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Well done!</h4>
+      <p>{{ message.tags }}</p>
+      <hr>
+      <p class="mb-0">{{ message }}</p>
+    </div>
+    {% endfor %}
+{% endif %}
+
+
