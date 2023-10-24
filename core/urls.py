@@ -8,8 +8,11 @@ from .views import HomeView
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('accounts/', include('allauth.urls')),
+  
   path('', HomeView.as_view(), name='Home'),
-  # path('marketplace/', include('marketplace.urls', namespace='marketplace'))
+
+  path('users/', include('accounts.urls', namespace='users')),
+  path('marketplace/', include('marketplace.urls', namespace='marketplace'))
 ]
 
 if settings.DEBUG:

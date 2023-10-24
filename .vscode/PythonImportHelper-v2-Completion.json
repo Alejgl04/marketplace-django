@@ -1,42 +1,36 @@
 [
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "django.contrib.auth.models",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.contrib.auth.models",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -72,6 +66,153 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "marketplace.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "isExtraImport": true,
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "PurchasedProduct",
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "isExtraImport": true,
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -85,6 +226,38 @@
         "description": "django.test",
         "isExtraImport": true,
         "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -162,46 +335,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -252,29 +385,21 @@
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
+        "label": "Migration",
         "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
+        "importPath": "accounts.migrations.0001_initial",
+        "description": "accounts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "accounts.migrations.0001_initial",
         "documentation": {}
     },
     {
-        "label": "marketplace.models",
+        "label": "Migration",
         "kind": 6,
-        "isExtraImport": true,
-        "importPath": "marketplace.models",
-        "description": "marketplace.models",
-        "detail": "marketplace.models",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_model",
-        "importPath": "django.contrib.auth",
-        "description": "django.contrib.auth",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth",
+        "importPath": "accounts.migrations.0002_initial",
+        "description": "accounts.migrations.0002_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('marketplace', '0001_initial'),\n        ('auth', '0012_alter_user_first_name_max_length'),\n        ('accounts', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='userlibrary',",
+        "detail": "accounts.migrations.0002_initial",
         "documentation": {}
     },
     {
@@ -284,6 +409,51 @@
         "description": "accounts.apps",
         "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
         "detail": "accounts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "class User(AbstractUser):\n  stripe_customer_id = models.CharField(max_length=50)\nclass UserLibrary(models.Model):\n  user = models.OneToOneField( User, on_delete=models.CASCADE, related_name='library')\n  products = models.ManyToManyField( Product, blank=True)\n  def __str__(self):\n    return self.user.email\ndef post_save_user_receiver(sender,instance,created,**kwargs):\n  if created:\n    library = UserLibrary.objects.create(user=instance)",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserLibrary",
+        "kind": 6,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "class UserLibrary(models.Model):\n  user = models.OneToOneField( User, on_delete=models.CASCADE, related_name='library')\n  products = models.ManyToManyField( Product, blank=True)\n  def __str__(self):\n    return self.user.email\ndef post_save_user_receiver(sender,instance,created,**kwargs):\n  if created:\n    library = UserLibrary.objects.create(user=instance)\n    purchased_products = PurchasedProduct.objects.filter(email=instance.email)\n    for purchased_product in purchased_products:",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "post_save_user_receiver",
+        "kind": 2,
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "peekOfCode": "def post_save_user_receiver(sender,instance,created,**kwargs):\n  if created:\n    library = UserLibrary.objects.create(user=instance)\n    purchased_products = PurchasedProduct.objects.filter(email=instance.email)\n    for purchased_product in purchased_products:\n      library.products.add(purchased_product.product)\npost_save.connect(post_save_user_receiver, sender=User)",
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "app_name = 'accounts'\nurlpatterns = [\n]",
+        "detail": "accounts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "accounts.urls",
+        "description": "accounts.urls",
+        "peekOfCode": "urlpatterns = [\n]",
+        "detail": "accounts.urls",
         "documentation": {}
     },
     {
@@ -354,7 +524,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    # Needed to login by username in Django admin, regardless of `allauth`\n    'django.contrib.auth.backends.ModelBackend',\n    # `allauth` specific authentication methods, such as login by email\n    'allauth.account.auth_backends.AuthenticationBackend',\n]\nLOGIN_REDIRECT_URL = '/'\nACCOUNT_LOGOUT_ON_GET = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    # Needed to login by username in Django admin, regardless of `allauth`\n    'django.contrib.auth.backends.ModelBackend',\n    # `allauth` specific authentication methods, such as login by email\n    'allauth.account.auth_backends.AuthenticationBackend',\n]\nLOGIN_REDIRECT_URL = '/'\nACCOUNT_LOGOUT_ON_GET = True\nAUTH_USER_MODEL='accounts.User'\nMIDDLEWARE = [",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -363,7 +533,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nACCOUNT_LOGOUT_ON_GET = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'\nACCOUNT_LOGOUT_ON_GET = True\nAUTH_USER_MODEL='accounts.User'\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -372,7 +542,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "ACCOUNT_LOGOUT_ON_GET = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    'allauth.account.middleware.AccountMiddleware',",
+        "peekOfCode": "ACCOUNT_LOGOUT_ON_GET = True\nAUTH_USER_MODEL='accounts.User'\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -525,7 +695,7 @@
         "kind": 5,
         "importPath": "core.urls",
         "description": "core.urls",
-        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('accounts/', include('allauth.urls')),\n  path('', HomeView.as_view(), name='Home'),\n  # path('marketplace/', include('marketplace.urls', namespace='marketplace'))\n]\nif settings.DEBUG:\n  urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n  urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
+        "peekOfCode": "urlpatterns = [\n  path('admin/', admin.site.urls),\n  path('accounts/', include('allauth.urls')),\n  path('', HomeView.as_view(), name='Home'),\n  path('users/', include('accounts.urls', namespace='users')),\n  path('marketplace/', include('marketplace.urls', namespace='marketplace'))\n]\nif settings.DEBUG:\n  urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)\n  urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)",
         "detail": "core.urls",
         "documentation": {}
     },
@@ -678,8 +848,26 @@
         "kind": 5,
         "importPath": "marketplace.models",
         "description": "marketplace.models",
-        "peekOfCode": "User = get_user_model()\ndef marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\ndef marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )",
         "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "marketplace.urls",
+        "description": "marketplace.urls",
+        "peekOfCode": "app_name = 'marketplace'\nurlpatterns = [\n]",
+        "detail": "marketplace.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "marketplace.urls",
+        "description": "marketplace.urls",
+        "peekOfCode": "urlpatterns = [\n]",
+        "detail": "marketplace.urls",
         "documentation": {}
     },
     {

@@ -2,9 +2,8 @@ from django.conf import settings
 import os
 
 from django.db import models
-from django.contrib.auth import get_user_model
 
-User = get_user_model()
+User = settings.AUTH_USER_MODEL
 
 def marketplace_directory_path(instance, filename):
   banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)
