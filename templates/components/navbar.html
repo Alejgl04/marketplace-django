@@ -1,7 +1,9 @@
+{% load static %}
 <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Logo</a>
-    <a class="navbar-brand" href="#">Home Market</a>
+    <a class="navbar-brand" href="#"><img src="{% static '/images/logo.png' %}" alt="My image">
+</a>
+    <a class="navbar-brand" href="#">Marketplace</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +29,7 @@
           {% if user.is_authenticated %}
           <li class="nav-item dropdown">
              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Alex
+              {{user}}
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
               <li><a class="dropdown-item" href="#">Action</a></li>
