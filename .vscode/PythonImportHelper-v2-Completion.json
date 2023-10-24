@@ -1,5 +1,133 @@
 [
     {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -42,19 +170,19 @@
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.contrib",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -79,38 +207,6 @@
         "description": "django.conf.urls.static",
         "isExtraImport": true,
         "detail": "django.conf.urls.static",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "redirect",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "get_object_or_404",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -156,27 +252,38 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "django.db.models.deletion",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.apps",
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "marketplace.models",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.db",
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "detail": "marketplace.models",
         "documentation": {}
     },
     {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
         "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "accounts.apps",
+        "description": "accounts.apps",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "accounts.apps",
         "documentation": {}
     },
     {
@@ -522,12 +629,57 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "marketplace.migrations.0001_initial",
+        "description": "marketplace.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "marketplace.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
         "label": "MarketplaceConfig",
         "kind": 6,
         "importPath": "marketplace.apps",
         "description": "marketplace.apps",
         "peekOfCode": "class MarketplaceConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'marketplace'",
         "detail": "marketplace.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "peekOfCode": "class Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )\n  description = models.TextField()\n  thumbnail   = models.ImageField( blank=True, null=True, upload_to=marketplace_directory_path )\n  slug = models.SlugField( unique=True )\n  content_url = models.URLField( blank= True, null= True)\n  content_file = models.FileField( blank= True, null= True)\n  active = models.BooleanField( default=False )\n  price  = models.PositiveIntegerField( default=100 )",
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "PurchasedProduct",
+        "kind": 6,
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "peekOfCode": "class PurchasedProduct( models.Model ):\n  email = models.EmailField()\n  product = models.ForeignKey( Product, on_delete=models.CASCADE )\n  date_purchased = models.DateTimeField( auto_now_add=True )\n  def __str__(self):\n    return self.email",
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "marketplace_directory_path",
+        "kind": 2,
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "peekOfCode": "def marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )\n  description = models.TextField()",
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "peekOfCode": "User = get_user_model()\ndef marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )",
+        "detail": "marketplace.models",
         "documentation": {}
     },
     {
