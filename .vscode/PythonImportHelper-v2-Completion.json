@@ -213,6 +213,14 @@
         "documentation": {}
     },
     {
+        "label": "Product",
+        "importPath": "marketplace.models",
+        "description": "marketplace.models",
+        "isExtraImport": true,
+        "detail": "marketplace.models",
+        "documentation": {}
+    },
+    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -340,6 +348,14 @@
         "description": "django.conf.urls.static",
         "isExtraImport": true,
         "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "Paginator",
+        "importPath": "django.core.paginator",
+        "description": "django.core.paginator",
+        "isExtraImport": true,
+        "detail": "django.core.paginator",
         "documentation": {}
     },
     {
@@ -704,7 +720,7 @@
         "kind": 6,
         "importPath": "core.views",
         "description": "core.views",
-        "peekOfCode": "class HomeView(View):\n  def get(self, request, *args, **kwargs):\n    context={}\n    return render(request, 'pages/index.html', context)",
+        "peekOfCode": "class HomeView(View):\n  def get(self, request, *args, **kwargs):\n    products = Product.objects.filter(active=True)\n    if products:\n      paginator = Paginator(products, 9)\n      page_number = request.GET.get('page')\n      data_products = paginator.get_page(page_number) \n    context={\n      'products': data_products\n    }",
         "detail": "core.views",
         "documentation": {}
     },
@@ -839,7 +855,7 @@
         "kind": 2,
         "importPath": "marketplace.models",
         "description": "marketplace.models",
-        "peekOfCode": "def marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )\n  description = models.TextField()",
+        "peekOfCode": "def marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/products/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n  return banner_pic_name\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )",
         "detail": "marketplace.models",
         "documentation": {}
     },
@@ -848,7 +864,7 @@
         "kind": 5,
         "importPath": "marketplace.models",
         "description": "marketplace.models",
-        "peekOfCode": "User = settings.AUTH_USER_MODEL\ndef marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )\n  name = models.CharField( max_length=100 )",
+        "peekOfCode": "User = settings.AUTH_USER_MODEL\ndef marketplace_directory_path(instance, filename):\n  banner_pic_name = 'marketplace/products/{0}/{1}'.format(instance.name, filename)\n  full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )\n  if os.path.exists(full_path):\n    os.remove(full_path)\n  return banner_pic_name\n# Create your models here.\nclass Product( models.Model ):\n  user = models.ForeignKey( User, on_delete=models.CASCADE, related_name='products' )",
         "detail": "marketplace.models",
         "documentation": {}
     },

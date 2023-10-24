@@ -6,11 +6,13 @@ from django.db import models
 User = settings.AUTH_USER_MODEL
 
 def marketplace_directory_path(instance, filename):
-  banner_pic_name = 'marketplace/product/{0}/{1}'.format(instance.name, filename)
+  banner_pic_name = 'marketplace/products/{0}/{1}'.format(instance.name, filename)
   full_path = os.path.join( settings.MEDIA_ROOT, banner_pic_name )
 
   if os.path.exists(full_path):
     os.remove(full_path)
+
+  return banner_pic_name
 
 
 # Create your models here.
