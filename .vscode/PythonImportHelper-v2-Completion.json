@@ -621,7 +621,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -630,7 +630,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -639,7 +639,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -648,7 +648,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -657,16 +657,16 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "core.settings",
         "documentation": {}
     },
     {
-        "label": "STATICFILES_DIR",
+        "label": "STATICFILES_DIRS",
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATICFILES_DIR = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = [\n  os.path.join(BASE_DIR, 'static')\n]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'static_root')\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "core.settings",
         "documentation": {}
     },
