@@ -1,0 +1,116 @@
+  <div class="container mt-4 mb-4">
+    <!-- Button trigger modal -->
+    <div class="row">
+      <button type="button" class="w-25 m-auto btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <p class="mt-1">Selling something, {{user.username}}?</p>
+      </button>
+    </div>
+    
+    <div class="mt-4 row m-auto w-50">
+      <ul class="nav nav-tabs d-flex justify-content-around" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Store</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Library</button>
+        </li>
+        
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Sell a Product</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          What would you like to sell today? <br>
+          <strong>Music, Games, Videos, Files, Urls</strong>
+        </p>
+        <form>
+          {% csrf_token %}
+          <div class="mb-3">
+            {{ form.thumbnail }}
+          </div>
+
+          <div class="relative flex justify-center my-4">
+            <span class="px-2 bg-white text-center text-sm dark:text-dark-txt text-gray-500">
+            Product Details
+            </span>
+          </div>
+          
+          <label for="name">
+          Name:
+          </label>
+          {{form.name}}
+          <br>
+
+          <label for="description">
+            Description:
+          </label>
+          {{form.description}}
+          <br>
+          
+          <label for="price">
+          Price, 100 = $1,00 | 1,000 = $10 | 10,000 = $100
+          </label>
+          {{form.price}}
+          <br>
+
+          <label for="slug">
+          Slug:
+          </label>
+          <div class="mt-1 d-flex rounded-md shadow-sm">
+          <span>
+              https://google.com/p/
+          </span>
+          {{form.slug}}
+          </div>
+
+          <div>
+            {{form.errors}}
+          </div>
+          <hr>
+          <p class="text-center">What are you selling?</p>
+
+          <label for="url">
+            URL (Optional: paid url products)
+          </label>
+          {{form.content_url}}
+          <br>
+
+          <label for="content">
+            Upload Content
+          </label>
+          <br>
+          <div>
+            {{form.content_file}}
+          </div>
+
+          <label for="active">
+          Publish or Draft?
+          </label>
+          {{form.active}}
+          <span class="text-red-500">{{form.errors}}</span>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Create</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
